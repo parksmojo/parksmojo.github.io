@@ -192,7 +192,7 @@ body {
   /* background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #0011ff 15%, #5f4d93 85%); */
   /* background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #1d00f7 15%, #5f4d93 85%); */
   /* background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ff001e 15%, #5f4d93 85%); */
-  background-image: url("images/overlay.png"), linear-gradient(45deg, #1d206c 15%, #3a8180 85%);
+  background-image: url("images/overlay.png"), linear-gradient(45deg, #3a8180 25%, #111191 75%);
 }
 
 body.is-preload *,
