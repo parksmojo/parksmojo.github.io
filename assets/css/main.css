@@ -3863,3 +3863,21 @@ body.is-preload #header.alt .logo {
     max-width: 100%;
   }
 }
+
+/* Card Container */
+.card {
+  padding: 6%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
