@@ -18,42 +18,87 @@
     <div id="wrapper">
       <!-- Header -->
       <header id="header">
-        <h1>Generic</h1>
-        <p>Ipsum dolor sit amet nullam</p>
+        <h1>Tweeter</h1>
+        <p>Share statuses with friends!</p>
       </header>
 
       <!-- Main -->
       <div id="main">
         <!-- Content -->
         <section id="content" class="main">
-          <span class="image main"><img src="images/pic04.jpg" alt="" /></span>
-          <h2>Magna feugiat lorem</h2>
-          <p>
-            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis
-            dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet.
-            Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia
-            malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus,
-            commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.
-          </p>
-          <p>
-            Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim
-            auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis
-            at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id
-            ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus
-            eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.
-          </p>
-          <h2>Tempus veroeros</h2>
-          <p>
-            Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non
-            blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet
-            interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit.
-            Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in
-            accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing
-            accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet
-            odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit
-            ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo
-            massa arcu.
-          </p>
+          <div class="spotlight">
+            <div class="content">
+              <h2>Project Description</h2>
+              <p>
+                Tweeter is a website that allows users follow other users, post statuses, and to see the statuses of
+                followed users. The posts have automatic hyperlinks, and allow the mention (@usermame) of other users,
+                becoming a link to that users page. The software architecture has been optimized to remove code
+                duplication and to facilitate extension of additional functionality. This is my project made for the BYU
+                Software Design class. The programming work is all my own, and the functionality has surpassed that of
+                the scope of the class.
+              </p>
+              <ul class="actions special">
+                <li>
+                  <a href="https://github.com/parksmojo/tweeter-web" target="_blank" class="button primary"
+                    >Go to code</a
+                  >
+                </li>
+                <li>
+                  <a href="https://tweeter.parkershumard.com" target="_blank" class="button primary"
+                    >Site unavailable</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <span class="icon major style5 brands fa-twitter image"></span>
+          </div>
+        </section>
+
+        <section id="content" class="main">
+          <h2>Technologies</h2>
+          <ul>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>AWS S3</li>
+            <li>AWS Lambda</li>
+            <li>AWS DynamoDB</li>
+            <li>AWS SQS</li>
+            <li>AWS API Gateway</li>
+          </ul>
+          <h2>Timeframe</h2>
+          <p>Fall 2024</p>
+          <h2>Learned Concepts</h2>
+          <ul>
+            <li>Software Architecture principles and patterns</li>
+            <li>Program Efficiency strategies</li>
+            <li>Layered architecture</li>
+            <li>Model-View-Presenter pattern</li>
+          </ul>
+          <h2>Favorite Aspects</h2>
+          <ul>
+            <li>Paginated queries for list retrieval efficiency</li>
+            <li>Factory strategy used for DAO implementation in Service classes of Lambda functions</li>
+          </ul>
+          <h2>Possible continuations</h2>
+          <ul>
+            <li>Dark Mode</li>
+            <li>User Search Page</li>
+            <li>More profile options (Private, bio, etc)</li>
+            <li>Posting Images</li>
+          </ul>
+        </section>
+
+        <section id="content" class="main">
+          <h2>Gallery</h2>
+          <span class="image main"
+            ><img src="https://pshum-portfolio-images.s3.us-west-2.amazonaws.com/tweeter/tweeter-login.png" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="https://pshum-portfolio-images.s3.us-west-2.amazonaws.com/tweeter/tweeter-story.png" alt=""
+          /></span>
+          <span class="image main"
+            ><img src="https://pshum-portfolio-images.s3.us-west-2.amazonaws.com/tweeter/tweeter-followers.png" alt=""
+          /></span>
         </section>
       </div>
 
@@ -77,7 +122,6 @@
           </ul>
         </section>
       </footer>
-    </div>
     </div>
 
     <!-- Scripts -->
