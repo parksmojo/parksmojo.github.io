@@ -3770,24 +3770,30 @@ body.is-preload #header.alt .logo {
 }
 
 /* Footer */
-
 #footer {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
-  -moz-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 5em 5em 3em 5em;
-  width: calc(100% + 2em);
-  margin: 0 0 3em -2em;
+  width: 100%;
+  margin: 0 0 3em 0;
+  justify-content: space-between; /* Space between the contact info and the icons */
 }
 
-#footer > * {
-  width: calc(50% - 2em);
-  margin-left: 2em;
+#footer > section {
+  display: flex;
+  flex: 1 1 calc(50% - 2em); /* Take up 50% of the width */
+  flex-wrap: wrap; /* Allows wrapping if needed */
+  justify-content: space-between; /* Ensures the content is spaced out properly */
+}
+
+#footer .alt {
+  margin: 0;
+}
+
+#footer .icons {
+  display: flex;
+  justify-content: flex-end; /* Align icons to the right */
+  gap: 15px; /* Space out icons */
 }
 
 #footer .copyright {
@@ -3811,10 +3817,14 @@ body.is-preload #header.alt .logo {
     width: 100%;
   }
 
-  #footer > * {
-    width: 100%;
+  #footer > section {
+    width: 100%; /* Full width on smaller screens */
     margin-left: 0;
     margin-bottom: 3em;
+  }
+
+  #footer .icons {
+    justify-content: flex-start; /* Align icons to the left on smaller screens */
   }
 
   #footer .copyright {
@@ -3825,12 +3835,6 @@ body.is-preload #header.alt .logo {
 @media screen and (max-width: 736px) {
   #footer {
     padding: 3em 2em 1em 2em;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #footer {
-    padding: 3em 1.5em 1em 1.5em;
   }
 }
 
