@@ -3897,3 +3897,21 @@ body.is-preload #header.alt .logo {
     padding: 1em;
   }
 }
+
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 1px 3px;
+  cursor: pointer;
+}
+
+.back-button::before {
+  font-size: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
