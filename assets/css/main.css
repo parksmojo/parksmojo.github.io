@@ -2253,7 +2253,7 @@ input[type="email"],
 select,
 textarea {
   background-color: rgba(255, 255, 255, 0.075);
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgb(58, 62, 65);
 }
 
 input[type="text"]:focus,
@@ -2444,15 +2444,15 @@ input[type="radio"]:focus + label:before {
 }
 
 .icon.major {
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgb(58, 62, 65);
 }
 
 .icon.major:before {
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgb(58, 62, 65);
 }
 
 .icon.alt {
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgb(58, 62, 65);
   color: #ffffff;
 }
 
@@ -3164,7 +3164,7 @@ table.alt tbody tr td {
 }
 
 .spotlight .image {
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgb(58, 62, 65);
 }
 
 /* Header */
@@ -3307,13 +3307,12 @@ body.is-preload #header.alt .logo {
     padding 0.2s ease;
   transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease,
     padding 0.2s ease;
-  background-color: #ffffff;
-  color: #636363;
+  color: rgb(169, 162, 151);
   position: absolute;
   width: 64em;
   max-width: calc(100% - 4em);
   padding: 1em;
-  background-color: #f7f7f7;
+  background-color: #1d1f20;
   border-top-left-radius: 0.25em;
   border-top-right-radius: 0.25em;
   cursor: default;
@@ -3323,16 +3322,16 @@ body.is-preload #header.alt .logo {
 #nav input,
 #nav select,
 #nav textarea {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #nav a:hover {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #nav strong,
 #nav b {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #nav h1,
@@ -3341,7 +3340,7 @@ body.is-preload #header.alt .logo {
 #nav h4,
 #nav h5,
 #nav h6 {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #nav blockquote {
@@ -3393,11 +3392,11 @@ body.is-preload #header.alt .logo {
 }
 
 #nav ul li a:hover {
-  background-color: rgba(222, 222, 222, 0.25);
+  background-color: #212324;
 }
 
 #nav ul li a.active {
-  background-color: #ffffff;
+  background-color: #181a1b;
   box-shadow: none;
 }
 
@@ -3405,7 +3404,8 @@ body.is-preload #header.alt .logo {
   position: fixed;
   top: 0;
   padding: 0.5em 1em;
-  background-color: rgba(247, 247, 247, 0.95);
+  background-color: rgba(29, 31, 32, 0.95);
+  /* background-color: rgba(247, 247, 247, 0.95); */
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   z-index: 10000;
@@ -3432,24 +3432,24 @@ body.is-preload #header.alt .logo {
 /* Main */
 
 #main {
-  background-color: #ffffff;
-  color: #636363;
+  background-color: #181a1b;
+  color: rgb(169, 162, 151);
   border-radius: 0.25em;
 }
 
 #main input,
 #main select,
 #main textarea {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #main a:hover {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #main strong,
 #main b {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #main h1,
@@ -3458,7 +3458,7 @@ body.is-preload #header.alt .logo {
 #main h4,
 #main h5,
 #main h6 {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #main blockquote {
@@ -3484,8 +3484,8 @@ body.is-preload #header.alt .logo {
 #main button,
 #main .button {
   background-color: transparent;
-  box-shadow: inset 0 0 0 1px #dddddd;
-  color: #636363 !important;
+  box-shadow: rgb(43, 47, 49) 0px 0px 0px 1px inset;
+  color: rgb(169, 162, 151) !important;
 }
 
 #main input[type="submit"]:hover,
@@ -3493,7 +3493,7 @@ body.is-preload #header.alt .logo {
 #main input[type="button"]:hover,
 #main button:hover,
 #main .button:hover {
-  background-color: rgba(222, 222, 222, 0.25);
+  background-color: #1d1f20;
 }
 
 #main input[type="submit"]:active,
@@ -3517,7 +3517,7 @@ body.is-preload #header.alt .logo {
 #main input[type="button"].primary,
 #main button.primary,
 #main .button.primary {
-  background-color: #8cc9f0;
+  background-color: rgb(15, 75, 114);
   color: #ffffff !important;
   box-shadow: none;
 }
@@ -3527,7 +3527,7 @@ body.is-preload #header.alt .logo {
 #main input[type="button"].primary:hover,
 #main button.primary:hover,
 #main .button.primary:hover {
-  background-color: #9acff2;
+  background-color: #0e456a;
 }
 
 #main input[type="submit"].primary:active,
@@ -3547,7 +3547,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main label {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #main input[type="text"],
@@ -3573,13 +3573,13 @@ body.is-preload #header.alt .logo {
 }
 
 #main select option {
-  color: #636363;
+  color: rgb(169, 162, 151);
   background: #ffffff;
 }
 
 #main input[type="checkbox"] + label,
 #main input[type="radio"] + label {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #main input[type="checkbox"] + label:before,
@@ -3590,8 +3590,8 @@ body.is-preload #header.alt .logo {
 
 #main input[type="checkbox"]:checked + label:before,
 #main input[type="radio"]:checked + label:before {
-  background-color: #636363;
-  border-color: #636363;
+  background-color: rgb(169, 162, 151);
+  border-color: rgb(169, 162, 151);
   color: #ffffff;
 }
 
@@ -3622,16 +3622,16 @@ body.is-preload #header.alt .logo {
 }
 
 #main .icon.major {
-  border-color: #dddddd;
+  border-color: rgb(58, 62, 65);
 }
 
 #main .icon.major:before {
-  border-color: #dddddd;
+  border-color: rgb(58, 62, 65);
 }
 
 #main .icon.alt {
-  border-color: #dddddd;
-  color: #636363;
+  border-color: rgb(58, 62, 65);
+  color: rgb(169, 162, 151);
 }
 
 #main .icon.alt:hover {
@@ -3647,7 +3647,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main dl dt {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #main header.major h2:after {
@@ -3667,7 +3667,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main table th {
-  color: #636363;
+  color: rgb(169, 162, 151);
 }
 
 #main table thead {
@@ -3688,7 +3688,7 @@ body.is-preload #header.alt .logo {
 
 #main > .main {
   padding: 5em 5em 3em 5em;
-  border-top: solid 1px #dddddd;
+  border-top: solid 1px rgb(58, 62, 65);
 }
 
 #main > .main:first-child {
@@ -3873,17 +3873,18 @@ body.is-preload #header.alt .logo {
 /* Card Container */
 .card {
   padding: 6%;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(58, 62, 65);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: rgb(19, 21, 22);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
 
 /* Card Hover Effect */
 .card:hover {
+  background-color: rgb(20, 22, 22);
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
@@ -3913,5 +3914,5 @@ body.is-preload #header.alt .logo {
 }
 
 .back-button:hover {
-  background-color: #0056b3;
+  color: rgb(200, 200, 200);
 }
