@@ -2365,7 +2365,6 @@ input[type="radio"]:focus + label:before {
   border-radius: 100%;
   padding: 0.65em;
   margin: 0 0 2em 0;
-  cursor: default;
 }
 
 .icon.major:before {
