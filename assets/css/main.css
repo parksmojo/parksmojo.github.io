@@ -3891,7 +3891,7 @@ body.is-preload #header.alt .logo {
 .listrow {
   display: flex;
   align-items: center;
-  border-top: solid 1px #dddddd;
+  border-bottom: solid 1px #dddddd;
   padding: 1.5em 1.5em 0em 1.5em;
   .content {
     padding: 1em;
