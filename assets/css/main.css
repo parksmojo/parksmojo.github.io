@@ -2364,7 +2364,6 @@ input[type="radio"]:focus + label:before {
   display: inline-block;
   border-radius: 100%;
   padding: 0.65em;
-  margin: 0 0 2em 0;
 }
 
 .icon.major:before {
@@ -2400,23 +2399,23 @@ input[type="radio"]:focus + label:before {
 }
 
 .icon.style1 {
-  color: #efa8b0;
+  color: #c3b471;
 }
 
 .icon.style2 {
-  color: #c79cc8;
+  color: #ffffff;
 }
 
 .icon.style3 {
-  color: #a89cc8;
+  color: #ffffff;
 }
 
 .icon.style4 {
-  color: #9bb2e1;
+  color: #ffffff;
 }
 
 .icon.style5 {
-  color: #8cc9f0;
+  color: #57a9dc;
 }
 
 @media screen and (max-width: 1680px) {
@@ -3879,6 +3878,9 @@ body.is-preload #header.alt .logo {
   background-color: rgb(19, 21, 22);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
+  > span {
+    margin-bottom: 2em;
+  }
 }
 
 /* Card Hover Effect */
@@ -3891,11 +3893,20 @@ body.is-preload #header.alt .logo {
 .listrow {
   display: flex;
   align-items: center;
-  border-bottom: solid 1px #dddddd;
-  padding: 1.5em 1.5em 0em 1.5em;
+  border-top: solid 1px #dddddd;
+  padding: 1.5em 1.5em 1.5em 1.5em;
+  justify-content: space-between;
+  .major::before {
+    font-size: 3em;
+  }
   .content {
     padding: 1em;
+    margin-right: auto;
   }
+}
+
+.listrow.first {
+  border: 0px;
 }
 
 .back-button {
