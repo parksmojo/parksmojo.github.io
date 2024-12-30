@@ -3920,3 +3920,12 @@ body.is-preload #header.alt .logo {
 .back-button:hover {
   color: rgb(200, 200, 200);
 }
+
+.portrait-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
