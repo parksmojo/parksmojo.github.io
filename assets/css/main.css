@@ -3929,3 +3929,28 @@ body.is-preload #header.alt .logo {
   padding: 0;
   list-style: none;
 }
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  margin: 0;
+  padding: 0;
+}
+
+.skill {
+  font-size: 36px;
+  border: #dddddd solid 1px;
+  padding: 0.75em;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.skill:hover {
+  font-weight: bold;
+  box-shadow: #000000 0px 0px 20px;
+}
+
+.skill.na {
+  cursor: default;
+}
