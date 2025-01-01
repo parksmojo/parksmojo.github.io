@@ -3935,6 +3935,10 @@ body.is-preload #header.alt .logo {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   margin: 0;
   padding: 0;
+  gap: 1em;
+  > a {
+    border: none;
+  }
 }
 
 .skill {
