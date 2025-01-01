@@ -3944,6 +3944,10 @@ body.is-preload #header.alt .logo {
   cursor: pointer;
   white-space: nowrap;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
 }
 
 .skill:hover {
