@@ -2379,7 +2379,7 @@ input[type="radio"]:focus + label:before {
 
 .icon.alt {
   display: inline-block;
-  border: solid 1px;
+  /* border: solid 1px; */
   border-radius: 100%;
 }
 
@@ -3769,6 +3769,7 @@ body.is-preload #header.alt .logo {
 
 /* Footer */
 #footer {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   padding: 5em 5em 3em 5em;
@@ -3887,9 +3888,10 @@ body.is-preload #header.alt .logo {
 .listrow {
   display: flex;
   align-items: center;
-  border-top: solid 1px #dddddd;
+  border-top: solid 1px rgb(58, 62, 65);
   padding: 1.5em 1.5em 1.5em 1.5em;
   justify-content: space-between;
+  cursor: pointer;
   .major::before {
     font-size: 3em;
   }
@@ -3953,6 +3955,22 @@ body.is-preload #header.alt .logo {
   gap: 0.5em;
 }
 
-.skill.na {
+.na {
   cursor: default;
+}
+
+@media screen and (max-width: 480px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .listrow p {
+    display: none;
+  }
+}
+
+.version {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* padding: 10px; */
 }
