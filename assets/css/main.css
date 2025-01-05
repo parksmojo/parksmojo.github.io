@@ -3967,6 +3967,12 @@ body.is-preload #header.alt .logo {
   .listrow p {
     display: none;
   }
+  .skills-container {
+    gap: 0;
+  }
+  .skill {
+    margin-bottom: 0.5em;
+  }
 }
 
 .version {
