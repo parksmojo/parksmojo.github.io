@@ -3889,7 +3889,7 @@ body.is-preload #header.alt .logo {
   display: flex;
   align-items: center;
   border-top: solid 1px rgb(58, 62, 65);
-  padding: 1.5em 1.5em 1.5em 1.5em;
+  padding: 1em 2em 1em 2em;
   justify-content: space-between;
   cursor: pointer;
   .major::before {
@@ -3898,6 +3898,9 @@ body.is-preload #header.alt .logo {
   .content {
     padding: 1em;
     margin-right: auto;
+  }
+  p {
+    margin: 0;
   }
 }
 
@@ -3960,6 +3963,10 @@ body.is-preload #header.alt .logo {
   cursor: default;
 }
 
+.mobile-skills-description {
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
   .hide-on-mobile {
     display: none;
@@ -3972,6 +3979,12 @@ body.is-preload #header.alt .logo {
   }
   .skill {
     margin-bottom: 0.5em;
+  }
+  .skills-description {
+    display: none;
+  }
+  .mobile-skills-description {
+    display: block;
   }
 }
 
