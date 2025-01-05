@@ -3936,6 +3936,7 @@ body.is-preload #header.alt .logo {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   margin: 0;
+  margin-bottom: 32px;
   padding: 0;
   gap: 1em;
   > a {
